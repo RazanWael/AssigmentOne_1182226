@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">individalAssigment</string>
+
+    <string name="fitness">Is fitness important in our life?</string>
+    <!--    <string-array name="fitness_inf">-->
+    <!--        <item>YES,Fitness means the condition of being physically and mentally fit with good health. It is the ability to carry out daily tasks with vigor and alertness, without undue fatigue, and with ample energy to enjoy life. </item>-->
+    <!--        <item>NO,Fitness donot have any benefit in our life, it's just words we hard that let people take money</item>-->
+    <!--    </string-array>-->
+    <string-array name="GENDER">
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+
+    <string name="fitnessBooks">fitness_Books</string>
+    <string name="stopwatch">STOPWATCH</string>
+    <string name="important_fitness_books">Important Fitness Books</string>
+    <string name="fitnessdes">Fitness means the condition of being physically and mentally fit with good health. It is the ability to carry out daily tasks with vigor and alertness, without undue fatigue, and with ample energy to enjoy life.</string>
+
+</resources>

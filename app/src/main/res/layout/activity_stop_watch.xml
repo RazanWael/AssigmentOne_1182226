@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8B6A4"
+    android:backgroundTint="#D8B6A4"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Stop_watch">
+
+
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scrollView"
+        android:layout_gravity="center"
+        android:layout_marginTop="-43dp"
+        android:text="00:00:00"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTime"
+        android:layout_gravity="center"
+        android:layout_marginTop="58dp"
+        android:backgroundTint="#630000"
+        android:onClick="btnStartOnClick"
+        android:text="START" />
+
+    <Button
+        android:id="@+id/btnreset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#630000"
+        android:onClick="btnResetOnClick"
+        android:layout_below="@+id/btnStart"
+        android:text="RESET" />
+
+    <Button
+        android:id="@+id/btnstop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnreset"
+        android:layout_gravity="center"
+        android:backgroundTint="#630000"
+        android:onClick="btnStopOnClick"
+        android:text="STOP" />
+
+
+</RelativeLayout>
